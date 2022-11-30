@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Condensed:ital@1&display=swap');
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #FFFFFF;
+}
+.form-field{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    left: 2rem;
+}
+
+.location input {
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;
+    width: 70%;
+    margin-left: 16rem;
+}
+
+.location ::placeholder {
+    position: absolute;
+    width: 321px;
+    height: 29px;
+    left: 25px;
+    top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.accesstoken input {
+    width: 70%;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    background: #000000;
+    color: #FFFFFF;margin-left: 16rem;
+}
+
+.accesstoken ::placeholder {
+    position: absolute;
+    width: 202px;
+    height: 29px;
+    left: 25px;
+    top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.btn {
+    height: 58px;
+    margin-left: 16rem;
+    margin-top: 25px;
+}
+
+.btn1 {
+    width: 180px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    cursor: pointer;
+}
+
+.heading1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+}
+
+.display {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1485px;
+    height: 1055px;
+    left: 62px;
+    top: 836px;
+    border: 2px solid #000000;
+}
+
+.location2 {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.lat {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 109px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.long {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 849px;
+    top: 121px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.time-zone {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 218px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.wind-speed {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 327px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.pressure {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 436px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.humidity {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 545px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.wind-direction {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 654px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.uv-index {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 763px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.feels-like {
+    position: absolute;
+    width: 669.46px;
+    height: 74px;
+    left: 20px;
+    top: 872px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
